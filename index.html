@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="assets/styling.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AR|About Me</title>
+    <title>AR | About Me</title>
 </head>
 <body>
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+        <nav class="uk-navbar-container" uk-navbar="dropbar: true;" style="position: relative; z-index: 980;">
+            <div class="uk-navbar-left">Alexis Reb</div>
+            <div class="uk-navbar-right">
+                <ul class="uk-navbar-nav">
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li class="uk-active"><a href="index.html">About Me</a>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     
+
+    <div class="uk-container uk-container-large">
+
+        <div class="uk-card uk-card-default uk-width-1-2@m">
+            <div class="uk-card-header">
+                <div class="uk-grid-small uk-flex-middle" uk-grid>
+                    <div class="uk-width-auto">
+                        <img class="uk-border-circle" width="40" height="40" src="assets/bloop3.jpg">
+                    </div>
+                    <div class="uk-width-expand">
+                        <h3 class="uk-card-title uk-margin-remove-bottom">About Me</h3>
+                        <p class="uk-text-meta uk-margin-remove-top"><time datetime="2020-10-24T19:00">October 2020</time></p>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-card-body">
+                <p>
+                    Hi, my name is Alexis Reb. I'm currently a full-stack development program student through the University of Washington Coding Bootcamp.
+                    I enjoy working on the front-end of web development; particularly designing and building functionality to a website. 
+                    <br>
+                    <br>
+                    I think it would be cool to eventually build a website to support my interest in photography, as well as creating an application that allows students to start 
+                    learning program languages earlier in schools. By making program language learning more accessible to students in early education, it will allow the technology
+                    field to be more inclusive and allow individuals to better understand the importance of technology in today's society. I think that adaptation to programming and technology is the way for a successful future.
+
+                </p>
+            </div>
+            <div class="uk-card-footer">
+                <a href="#" class="uk-button uk-button-text">Read more</a>
+            </div>
+        </div>        
+
+    </div>
 </body>
 </html>
