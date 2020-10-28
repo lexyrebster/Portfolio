@@ -1,8 +1,70 @@
-uk-card-header {
-    padding: 25%;
-}
+
+
 
 div.uk-navbar-left {
-    font-size: 38px;
-    padding-left: 10px;
+    font-size: 70px;
+    padding-left: 2%;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffb84d;
+  }
+
+  /* body {
+    background: url("./background1.jpg");
+    background-size: cover;
+    height: 100vh;
+  } */
+
+  div.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    color: white;
+    text-align: center;
+  }
+
+
+  div.uk-navbar-right {
+      text-align: center;
+  }
+
+  div.uk-card-footer {
+    text-align: center;
+  }
+
+  i.icon {
+      text-align: center;
+      padding: 15% 
+  }
+
+  i.icon:hover {
+    color: #ffb84d;
+  }
+
+  a.icon-button {
+      border: 0ch;
+  }
+
+  /* div.uk-width-expand {
+     text-align: center;
+     
+  } */
+
+  img.uk-border-circle {
+      float: left;
+  }
+
+  h3.uk-margin-remove-bottom {
+      font-size: 35px;
+      font-family: 'Bebas Neue', cursive;
+      padding-top: 10%;
+      padding-bottom: 10%;
+      text-align: center;
+      letter-spacing: 0.75cm;
+      word-wrap: break-word;
+  }
+
+  #background1.jpg {
+      opacity: 95%;
   }
